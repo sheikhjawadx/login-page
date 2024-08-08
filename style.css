@@ -1,27 +1,34 @@
 body {
-  background-color: #2f3e46;
+  background-color: #f1f3f4;
   margin: 50px;
-  display: flex;
-  flex-direction: row;
-  padding: 80px;
-
-  justify-items: center;
   width: auto;
   padding-top: 4px;
 }
 .main {
-  border-style: dashed;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.sheet {
+  background-color: #2f3e46;
+  height: 470px;
+  width: 350px;
+  border-top-right-radius: 20px;
+  border-bottom-right-radius: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.login {
   height: 380px;
   width: auto;
   display: flex;
   flex-direction: column;
   padding-top: 90px;
   text-align: left;
-  border: 5px double black;
-  position: fixed;
-  margin-bottom: 50px;
   background-color: #cad2c5;
-  border-radius: 20px;
+  border-top-left-radius: 20px;
+  border-bottom-left-radius: 20px;
   justify-content: left;
 }
 label {
@@ -59,6 +66,6 @@ button:active {
   border: none;
 }
 .text {
-  color: aliceblue;
-  background-color: #2f3e46;
+  color: #cad2c5;
+  text-align: center;
 }
